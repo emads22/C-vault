@@ -1,9 +1,6 @@
 # C-Vault: Customs Declarations Management System
 
-<p align="center">
-  <img src="./assets/images/logo/c_vault.png" alt="C-Vault Logo" style="vertical-align: middle; margin-right: 10px; height: 300px;">
-  <img src="./assets/images/logo/c_vault_title.png" alt="C-Vault Title" style="vertical-align: middle; height: 235px; border-radius: 20px;">
-</p>
+![C-Vault Logo](./assets/images/logo/c_vault_merged_small.png)
 
 C-Vault is a dedicated solution designed for efficiently managing and archiving customs declarations. It offers a range of key features aimed at simplifying the process of handling customs documents, ensuring security, accessibility, and ease of use.
 
