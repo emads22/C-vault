@@ -2,7 +2,10 @@
 
 ![C-Vault Logo](./assets/images/logo/c_vault_merged_small.png)
 
+## Overview
 C-Vault is a dedicated solution designed for efficiently managing and archiving customs declarations. It offers a range of key features aimed at simplifying the process of handling customs documents, ensuring security, accessibility, and ease of use.
+
+---
 
 ## Developed for Lebanese Customs
 In the wake of the devastating Port Beirut blast in 2020, which resulted in the significant loss of customs declarations, there was an urgent need for a robust and reliable system to manage and safeguard these critical documents. C-Vault was developed specifically to address this need for the Lebanese Customs Authority.
@@ -17,30 +20,34 @@ Key benefits for the Lebanese Customs Authority include:
 
 C-Vault represents a significant step forward in modernizing the customs declaration management infrastructure, ensuring resilience against potential future disruptions and enhancing operational efficiency.
 
+---
+
 ## Key Features
 
-### Archive
-- Select files from a source directory
-- Save to SQL database
-- Avoid duplicates
+- ### Archive
+    - Select files from a source directory
+    - Save to SQL database
+    - Avoid duplicates
 
-### Read
-- Open scanned PDF files of Customs Declaration using default PDF viewer (e.g., SumatraPDF)
-- Report generation for authorized users
-- History retrieval for authorized users
+- ### Read
+    - Open scanned PDF files of Customs Declaration using default PDF viewer (e.g., SumatraPDF)
+    - Report generation for authorized users
+    - History retrieval for authorized users
 
-### Update
-- Maintain version history
-- Track changes made to Customs Declarations (PDF files)
+- ### Update
+    - Maintain version history
+    - Track changes made to Customs Declarations (PDF files)
 
-### Delete (with history)
-- Soft delete: Flag files as deleted
-- Maintain file history even after deletion
+- ### Delete (with history)
+    - Soft delete: Flag files as deleted
+    - Maintain file history even after deletion
 
-### User Management
-- Super Admin: Create and manage users, change roles and permissions
-- Regular Users: Read, archive, update, and delete (within their privileges)
-- Role-Based Access Control (RBAC)
+- ### User Management
+    - Super Admin: Create and manage users, change roles and permissions
+    - Regular Users: Read, archive, update, and delete (within their privileges)
+    - Role-Based Access Control (RBAC)
+
+---
 
 ## Technologies Used
 - **cryptography**: A library providing cryptographic recipes and primitives.
@@ -50,36 +57,42 @@ C-Vault represents a significant step forward in modernizing the customs declara
 - **pillow**: A library for image processing.
 - **PyGetWindow**: A library for obtaining information about window properties.
 
+---
+
 ## Functions Overview
 
-### Archive Functionality
-- Select files from a source directory
-- Save to SQL database
-- Avoid duplicates
+- ### Archive Functionality
+    - Select files from a source directory
+    - Save to SQL database
+    - Avoid duplicates
 
-### Read Functionality
-- Open scanned PDF files of Customs Declaration using default PDF viewer (e.g., SumatraPDF)
-- Report generation for authorized users
-- History retrieval for authorized users
+- ### Read Functionality
+    - Open scanned PDF files of Customs Declaration using default PDF viewer (e.g., SumatraPDF)
+    - Report generation for authorized users
+    - History retrieval for authorized users
 
-### Update Functionality
-- Maintain version history
-- Track changes made to Customs Declarations (PDF files)
+- ### Update Functionality
+    - Maintain version history
+    - Track changes made to Customs Declarations (PDF files)
 
-### Delete Functionality
-- Soft delete: Flag files as deleted
-- Maintain file history even after deletion
+- ### Delete Functionality
+    - Soft delete: Flag files as deleted
+    - Maintain file history even after deletion
+
+---
 
 ## User Roles And Privileges
 
-### Super Admin:
-- Create and manage users
-- Change roles and permissions
+- ### Super Admin:
+    - Create and manage users
+    - Change roles and permissions
 
-### Regular Users:
-- Read, archive, update, and delete (within their privileges)
+- ### Regular Users:
+    - Read, archive, update, and delete (within their privileges)
 
-### Role-Based Access Control (RBAC)
+- ### Role-Based Access Control (RBAC)
+
+---
 
 ## Multi-user Environment
 
@@ -88,6 +101,8 @@ C-Vault represents a significant step forward in modernizing the customs declara
 - IP address and port configuration during installation
 - Centralized database management
 
+---
+
 ## Security Measures
 
 - Encrypted communication between clients and server
@@ -95,21 +110,27 @@ C-Vault represents a significant step forward in modernizing the customs declara
 - Super Admin controls IP address changes
 - Regular backups of the database
 
+---
+
 ## Installation Process
 
 - Step-by-step guide for installing C-vault
 - Configuration of IP address and port number
 - Super Admin privileges during installation
 
+---
+
 ## Reporting And History
 
-### Report Generation:
-- CSV files with document details (Microsoft Excel sheet)
-- Accessible by authorized users
+- ### Report Generation:
+    - CSV files with document details (Microsoft Excel sheet)
+    - Accessible by authorized users
 
-### History Tracking:
-- CSV files for each version (Microsoft Excel sheet)
-- Detailed history of changes made
+- ### History Tracking:
+    - CSV files for each version (Microsoft Excel sheet)
+    - Detailed history of changes made
+
+---
 
 ## Super Admin Controls
 - User Management:
@@ -118,20 +139,28 @@ C-Vault represents a significant step forward in modernizing the customs declara
 - Centralized IP Address Control:
   - Enhancing security and control
 
+---
+
+## Conclusion
+C-Vault offers a comprehensive solution for efficiently managing and archiving customs declarations. With its robust features, user-friendly interface, and emphasis on security, it is an ideal choice for organizations seeking to streamline their customs document management processes.
+
+---
+
 ## License
 This project is licensed under the [END-USER LICENSE AGREEMENT (EULA)](LICENSE).
+
+---
 
 ## Author
 - Emad &nbsp; E>
   
   [<img src="https://img.shields.io/badge/GitHub-Profile-blue?logo=github" width="150">](https://github.com/emads22)
 
-## Conclusion
-C-Vault offers a comprehensive solution for efficiently managing and archiving customs declarations. With its robust features, user-friendly interface, and emphasis on security, it is an ideal choice for organizations seeking to streamline their customs document management processes.
+---
 
 ## Contact
 For more details or inquiries, please contact:
 
-- **Email:** &nbsp; `emadsaab222@gmail.com`
+- **Email:** &nbsp; [emadsaab222@gmail.com](mailto:emadsaab222@gmail.com)
 
-  [<img src="https://img.shields.io/badge/Email-Contact%20Me-red?logo=gmail" width="170">](mailto:emadsaab222@gmail.com)
+  <!-- [<img src="https://img.shields.io/badge/Email-Contact%20Me-red?logo=gmail" width="170">](mailto:emadsaab222@gmail.com) -->
